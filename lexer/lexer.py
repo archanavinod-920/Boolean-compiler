@@ -4,7 +4,7 @@ TOKEN_SPECIFICATION = [
     ("NUMBER", r"\d+(?:.\d+)?"),
     ("IDENTIFIER", r"[a-zA-Z_][a-zA-Z0-9_]*"),
     ("RELATIONAL_OPERATOR", r"==|!=|>=|<=|>|<"),
-    ("LOGICAL_OPERATOR", r"&&||||!"),
+    ("LOGICAL_OPERATOR", r"&&|\|\||!"),
     ("LPAREN", r"("),
     ("RPAREN", r")"),
     ("WHITESPACE", r"\s+"),
